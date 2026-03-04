@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* MENU NAVIGAZIONE SUPERIORE */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+/* PARTE SINISTRA */
+
+#logo {
+  height: 2em;
+  margin-left: 1em;
+}
+
+/* BLOCCO CENTRALE */
+
+#barra-ricerca {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+/* UNISCE: ICONA RICERCA, INPUT, ICONA ARCHIVIO */
+#blocco-centrale-ricerca {
+  display: flex;
+  background-color: #1f1f1f;
+  border-radius: 2em;
+  width: 30%;
+}
+/* BORDO BIANCO SX ICONA ARCHIVIO */
+#archivio > div {
+  border-left: 1px solid #b3b3b3;
+  padding: 0 4px 0 12px;
+}
+/* BORDO ARROTONDATO A DESTRA PER CHIUDERE INPUT */
+#archivio {
+  border: none;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+  background-color: #1f1f1f;
+  margin-right: 0.5em;
+}
+/* INPUT TESTO */
+#blocco-centrale-ricerca input {
+  background-color: #1f1f1f;
+  border: none;
+  flex: 1;
+}
+
+/* BLOCCO FINALE */
+
+#blocco-finale {
+  display: flex;
+  flex-direction: row;
+}
+/* PER CENTRARE ELEMENTI ULTIMO BLOCCO */
+#sezione-download {
+  display: flex;
+  align-items: center;
+}
+/* ARROTONDATA FOTO */
+#foto-profilo {
+  border-radius: 50%;
+}
+/* CREATO BORDO INTORNO CON IL BOTTONE */
+.bordo-foto {
+  background-color: #1f1f1f;
+  padding: 8px;
+}
+
+/* ICONE TOPBAR */
+/* COLORE + DIMENSIONE PRIME 3 ICONE DA SX */
+i {
+  font-size: 1.8em;
+  color: #b3b3b3;
+}
+/* DIMENSIONE ULTIME 3 ICONE DA SX */
+#icona-campana {
+  font-size: 1.2em;
+}
+
+#icona-download {
+  font-size: 1.2em;
+}
+
+#icona-gruppo {
+  font-size: 1.2em;
+}
+
+/* BOTTONI TOPBAR(BOTTONE ARCHIVIO è IN BLOCCO CENTRALE A NOME #ARCHIVIO */
+#bottone-home {
+  margin-right: 0.5em;
+}
+
+#bottone-lente {
+  margin-right: 0.5em;
+}
+
+#bottone-download {
+  margin-right: 1em;
+}
+#bottone-campana {
+  margin-right: 1em;
+}
+#bottone-gruppo {
+  margin-right: 1em;
+}
+
+/* SFONDO ARROTONDATO PRIMI 2 BOTTONI DA SINISTRA */
+.bottone {
+  background-color: #1f1f1f;
+  padding: 12px;
+  border-radius: 50%;
+  border: none;
+}
+/* SFONDO ULTIMI 3 BOTTONI  */
+.bottone-grigio {
+  background-color: black;
+  border: none;
+  color: #b3b3b3;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

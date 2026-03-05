@@ -200,3 +200,23 @@ i {
   margin-left: 1em;
   margin-top: 0.5em;
 }
+
+main {
+  display: flex;
+}
+
+#main-centrale {
+  height: 92vh;
+  width: 54%;
+  background: linear-gradient(#6e493a, #121212 25%);
+  border-radius: 0.5em;
+  margin-left: 0.5em;
+}
+
+#main-dx {
+  height: 92vh;
+  width: 22%;
+  background: #121212;
+  border-radius: 0.5em;
+  margin-left: 0.5em;
+}

@@ -4,22 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify - Lettore web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/CSS/reset-style.css" />
+    <link rel="stylesheet" href="./assets/CSS/new-style.css" />
     <link rel="stylesheet" href="./assets/CSS/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header>
+    <header id="contenitore-menù-sup">
       <!-- LOGO SPOTIFY A SINISTRA -->
-      <div>
-        <img
-          id="logo"
-          src="./assets/IMG/Spotify_Primary_Logo_RGB_White.png"
-          alt="Spotify logo"
-        />
-      </div>
+      <img
+        id="logo"
+        src="./assets/IMG/Spotify_Primary_Logo_RGB_White.png"
+        alt="Spotify logo"
+      />
+
       <!-- BLOCCO CENTRALE -->
       <div id="barra-ricerca">
         <!-- ICONA HOME -->
@@ -48,7 +62,7 @@
             <a href="#">
               <button id="bottone-download" class="bottone-grigio">
                 <i id="icona-download" class="bi bi-arrow-down-circle"></i>
-                <strong>Installa app</strong>
+                <p>Installa app</p>
               </button>
             </a>
             <button id="bottone-campana" class="bottone-grigio">
@@ -67,7 +81,29 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- SEZIONE LATERALE SINISTRA -->
+      <div id="menù-laterale">
+        <div id="header-libreria">
+          <div>
+            <h1><b>La tua libreria</b></h1>
+          </div>
+          <div id="header-libreria-destra">
+            <button>
+              <i class="icona-sx fas fa-plus"></i>
+              <h1><b>Crea</b></h1>
+            </button>
+            <a href="#"><i class="icona-sx fas fa-expand-alt"></i></a>
+          </div>
+        </div>
+        <div id="bottoni-libreria">
+          <button>Playlist</button>
+          <button>Album</button>
+        </div>
+      </div>
+      <div></div>
+      <div></div>
+    </main>
     <footer></footer>
   </body>
 </html>

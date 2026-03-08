@@ -208,7 +208,7 @@ main {
 #main-centrale {
   height: 92vh;
   width: 54%;
-  background: linear-gradient(#6e493a, #121212 25%);
+  background: linear-gradient(#222222, #121212 25%);
   border-radius: 0.5em;
   margin-left: 0.5em;
 }
@@ -219,4 +219,70 @@ main {
   background: #121212;
   border-radius: 0.5em;
   margin-left: 0.5em;
+}
+
+/* TERZA RIGA COLONNA DX */
+
+#terza-riga {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px 10px;
+}
+
+#terza-riga-recenti {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+  color: #777777;
+  padding: 5px;
+}
+
+#terza-riga i {
+  color: #777777;
+  font-size: 1em;
+}
+
+#terza-riga p {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+/* RIGHE ALBUM COLONNA SINISTRA */
+
+.riga-album {
+  display: flex;
+  color: #f6f6f6;
+  font-weight: 200;
+}
+
+.seconda-riga-album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.riga-album i {
+  font-size: 1em;
+  color: #21c95a;
+  margin-right: 7px;
+  transform: rotate(45deg);
+}
+
+.nome-playlist {
+  padding-bottom: 5px;
+}
+
+.tipo-playlist {
+  font-size: 0.8em;
+  font-weight: 600;
+  display: flex;
+  color: #777777;
+  padding-top: 5px;
+}
+
+.riga-album img {
+  width: 47px;
+  border-radius: 16px;
+  padding: 7px 15px;
 }
